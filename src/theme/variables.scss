@@ -38,10 +38,16 @@ $colors: (
   secondary:  #32db64,
   danger:     #f53d3d,
   light:      #f4f4f4,
-  dark:       #222
+  dark:       #222,
+  softgray: #f7f7f7
 );
 
-
+$background-color	: color($colors,light);
+$tabs-background: transparent;
+$tabs-md-tab-icon-color:	color($colors,dark);
+$tabs-ios-tab-icon-color:	color($colors,dark);
+$tabs-md-tab-text-color:	color($colors,dark);
+$tabs-ios-tab-text-color:	color($colors,dark);
 // App iOS Variables
 // --------------------------------------------------
 // iOS only Sass variables can go here
